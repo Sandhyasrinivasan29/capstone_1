@@ -576,8 +576,7 @@ elif show_table == "COMMENTS":
         st.write("No data available for comments")
     cursor.close()
     db.close()
-  #---------------------------------------------------------------------------------------------------
-  # query for 10 questions:
+# query for 10 questions:
 db = mysql.connector.connect(
     host="localhost",
     user="root",
